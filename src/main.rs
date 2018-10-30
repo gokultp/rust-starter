@@ -1,6 +1,7 @@
 fn main() {
     println!("Hello, world!");
     print!("{}",fact(5));
+    print!("{}", testMatch(17))
 }
 
 fn fact( n: i32) -> i32 {
