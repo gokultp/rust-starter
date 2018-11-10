@@ -32,6 +32,8 @@ fn test_types(){
     println!("{} + {} = {}",fl1, fl2, fl1+fl2);
 
     // tuple
-    t :(i32, f32, char) = (1,2.0, 'a');
+    let t :(i32, f32, char) = (1,2.0, 'a');
+    let (_,fl3,_) = t;
+    println!("fl3 is {} and tuple is {:?}", fl3, t);
 
 }
