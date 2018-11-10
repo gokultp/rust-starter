@@ -21,7 +21,17 @@ fn test_match(boolean: bool) ->i32 {
 }
 
 fn test_types(){
+    // int
     let a = 5;
     let b :i32 = 6;
     println!("{} + {} = {}",a, b, a+b);
+
+    // float
+    let fl1 = 5.2;
+    let fl2 :f64 = 6.8;
+    println!("{} + {} = {}",fl1, fl2, fl1+fl2);
+
+    // tuple
+    t :(i32, f32, char) = (1,2.0, 'a');
+
 }
